@@ -27,10 +27,6 @@ $(document).ready(()=>{
 
 	$(document).on('scroll', backgroundNavbar);
 
-	$('.container-fluid').on('click', () => {
-		$('.navbar-collapse').collapse('hide');
-	});
-
 	$('.navbar-nav>li>a').on('click', () => {
 	    $('.navbar-collapse').collapse('hide');
 	});
@@ -46,6 +42,4 @@ $(document).ready(()=>{
 
 });
 
-particlesJS.load('inicio-background', 'js/particles.json', () => {
-  console.log('callback - particles.js config loaded');
-});
+particlesJS.load('inicio-background', 'js/particles.json');
