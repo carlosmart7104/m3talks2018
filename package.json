@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "m3talks2018",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Conferenicas de tecnología en Veracruz-Boca del Rio. 2018",
   "engines": {
     "node": "6.12.1"
   },
@@ -20,12 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/carlosmart7104/m3talks2018.git"
   },
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "M3",
+    "talks"
   ],
   "license": "MIT"
 }
