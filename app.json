@@ -1,0 +1,8 @@
+{
+  "name": "M3 Talks",
+  "description": "Conferencias de tecnología en Veracruz-Boca del Rio",
+  "repository": "https://github.com/carlosmart7104/m3talks2018.git",
+  "logo": "https://github.com/carlosmart7104/m3talks2018.git/master/public/node.svg",
+  "keywords": ["m3", "talks"],
+  "image": "heroku/nodejs"
+}

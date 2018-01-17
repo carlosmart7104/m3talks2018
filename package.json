@@ -4,7 +4,7 @@
   "description": "M3 Talks 2018 (official website)",
   "engines": {
     "node": "6.12.1"
-  }
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
