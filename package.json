@@ -1,6 +1,6 @@
 {
   "name": "m3talks2018",
-  "version": "1.0.0001",
+  "version": "1.0.0002",
   "description": "M3 Talks 2018 (official website)",
   "main": "server.js",
   "scripts": {
