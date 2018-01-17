@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top border border-top-0 border-left-0 border-right-0 border-success">
   <div class="container">
     <a class="navbar-brand" href="#" onclick="scroll_to('#inicio');">
       <img src="/icon-bg-transparent.png" width="45px" alt="M3 Talks">
@@ -8,6 +8,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item" onclick="scroll_to('#inicio');">
+            <a class="nav-link" href="#">INICIO</a>
+          </li>
           <li class="nav-item" onclick="scroll_to('#ponentes');">
             <a class="nav-link" href="#">PONENTES</a>
           </li>
@@ -21,7 +24,8 @@
             <a class="nav-link" href="#">LUGAR</a>
           </li>
           <li class="nav-item">
-            <a id="nav-btn-entradas" href="https://m3talks.eventbrite.com" class="btn btn-outline-success" target="_blank">ENTRADAS</a>
+            <a id="nav-btn-entradas" href="#" class="btn btn-outline-success">ENTRADAS</a>
+            <!-- href="https://m3talks.eventbrite.com" target="_blank" -->
           </li>
         </ul>
       </div>
