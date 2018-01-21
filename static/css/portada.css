@@ -15,7 +15,7 @@
 	font-weight: bolder;
 	font-size: 180px;
 	color: white;
-	transform: rotate(-16deg);
+	transform: rotate(-8deg);
 }
 
 #portada .m3logo .talks {
@@ -48,4 +48,16 @@
 }
 
 #portada .info .ciudad {
+}
+
+@media (max-width: 350px) {
+	#portada .m3logo .m3{
+		font-size: 140px;
+	}
+	#portada .m3logo .talks {
+		font-size: 20px;
+	}
+	#portada .info .lugar {
+		font-size: 20px;
+	}
 }
