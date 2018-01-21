@@ -2,7 +2,7 @@ body {
 	color: white;
 	font-family: 'Helvetica Neue';
 	font-size: 15px;
-	background-color: rgba(34, 34, 34, 1.0);
+	/*background-color: rgba(34, 34, 34, 1.0);*/
 }
 
 .navbar {
@@ -32,7 +32,7 @@ body {
 	color: rgba(0, 0, 0, 0.25);
 }
 
-.smoth-light {
+.smooth-light {
 	color: rgba(220, 220, 220, 1.0);
 }
 
@@ -54,7 +54,7 @@ body {
 	height: 100vh;
 }
 
-#inicio > .container {
+#inicio .container {
 	position: relative;
 	text-align: bottom;
 	z-index: 0;
@@ -75,39 +75,6 @@ footer a, footer a:hover {
 	color: rgba(230, 43, 30, 1.0);
 }
 
-/* Extra small devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767px) {
-
-}
-
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {
 	.navbar-nav {
@@ -124,9 +91,7 @@ No media query since this is the default in Bootstrap */
 		margin-left: 0;
 		padding: 15px 50px;
 	}
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199px) {
-
+	.smooth-light {
+		font-size: 18px;
+	}
 }

@@ -67,3 +67,5 @@ window.addEventListener("load",function() {
         window.scrollTo(0, 1);
     }, 0);
 });
+
+setInterval(() => { $('#inicio-background').height($('#inicio').height()); }, 0);

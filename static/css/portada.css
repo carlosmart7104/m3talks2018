@@ -32,7 +32,7 @@
 #portada .info {
 	display: inline-block;
 	width: auto;
-	margin: 30px 0px;
+	margin: 30px 0px 50px 0px;
 	font-size: 18px;
 }
 
@@ -59,11 +59,17 @@
 }
 
 @media (max-width: 350px) {
+	#portada .m3logo {
+		padding-top: 0px;
+	}
 	#portada .m3logo .m3{
 		font-size: 140px;
 	}
 	#portada .m3logo .talks {
 		font-size: 20px;
+	}
+	#portada .info {
+		margin: 10px 0px 50px 0px;
 	}
 	#portada .info .lugar {
 		font-size: 20px;
