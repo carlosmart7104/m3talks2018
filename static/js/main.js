@@ -11,6 +11,8 @@ function scroll_to(el){
 			el = '#patrocinadores';
 		} else if ($('.navbar').offset().top < $('#patrocinadores').offset().top + $('#patrocinadores').height() - 70) {
 			el = '#lugar';
+		} else if ($('.navbar').offset().top < $('#lugar').offset().top + $('#lugar').height() - 70) {
+			el = '#nosotros';
 		} else {
 			el = '#inicio';
 		}

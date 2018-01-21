@@ -1,0 +1,51 @@
+#portada {
+	position: relative;
+	padding-top: 50px;
+}
+
+#portada .m3logo {
+	display: block;
+	width: 100%;
+	padding-top: 50px;
+}
+
+#portada .m3logo .m3 {
+	line-height: 1;
+	font-family: 'Comfortaa';
+	font-weight: bolder;
+	font-size: 180px;
+	color: white;
+	transform: rotate(-16deg);
+}
+
+#portada .m3logo .talks {
+	margin-top: 25px;
+	margin-left: 10px;
+	line-height: 1;
+	font-family: 'Comfortaa';
+	font-weight: bolder;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 10px;
+}
+
+#portada .info {
+	display: block;
+	margin: 50px 0px;
+	font-size: 18px;
+}
+
+#portada .info .lugar {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px 0px;
+	font-size: 25px;
+	font-weight: bolder;
+	line-height: 1;
+	letter-spacing: 2.5px;
+	color: rgba(34, 34, 34, 0.75);
+	background-color: white;
+}
+
+#portada .info .ciudad {
+}
