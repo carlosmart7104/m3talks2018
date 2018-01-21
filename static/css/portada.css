@@ -1,6 +1,8 @@
 #portada {
 	position: relative;
 	padding-top: 70px;
+	font-family: 'Comfortaa';
+	font-weight: bolder;
 }
 
 #portada .m3logo {
@@ -11,8 +13,6 @@
 
 #portada .m3logo .m3 {
 	line-height: 1;
-	font-family: 'Comfortaa';
-	font-weight: bolder;
 	font-size: 180px;
 	color: white;
 	transform: rotate(-8deg);
@@ -22,8 +22,6 @@
 	margin-top: 5px;
 	margin-left: 10px;
 	line-height: 1;
-	font-family: 'Comfortaa';
-	font-weight: bolder;
 	font-size: 30px;
 	color: white;
 	letter-spacing: 10px;
