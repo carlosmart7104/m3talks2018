@@ -47,15 +47,18 @@
 	background-color: white;
 }
 
-#portada .info .ciudad {
-}
-
 @media (max-width: 350px) {
+	#portada .m3logo {
+		padding-top: 20px;
+	}
 	#portada .m3logo .m3{
 		font-size: 140px;
 	}
 	#portada .m3logo .talks {
 		font-size: 20px;
+	}
+	#portada .info {
+		margin: 25px 0px;
 	}
 	#portada .info .lugar {
 		font-size: 20px;
