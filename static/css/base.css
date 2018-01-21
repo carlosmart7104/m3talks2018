@@ -38,6 +38,17 @@ body {
 	margin-left: 15px;
 }
 
+#scroll-button {
+	cursor: pointer;
+	z-index: 800;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	padding: 0;
+	text-align: center;
+	background-color: rgba(34, 34, 34, 0.75);
+}
+
 #inicio {
 	color: white;
 	position: relative;
