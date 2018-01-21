@@ -1,14 +1,14 @@
 #portada {
 	position: relative;
 	padding-top: 70px;
-	font-family: 'Comfortaa';
-	font-weight: bolder;
 }
 
 #portada .m3logo {
 	display: block;
 	width: 100%;
 	padding-top: 50px;
+	font-family: 'Comfortaa';
+	font-weight: bolder;
 }
 
 #portada .m3logo .m3 {
